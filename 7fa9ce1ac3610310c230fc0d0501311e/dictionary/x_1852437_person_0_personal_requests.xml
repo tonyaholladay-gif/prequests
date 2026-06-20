@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="0c2ace5ac3610310c230fc0d050131fe" label="Personal Requests" max_length="40" name="x_1852437_person_0_personal_requests" type="collection">
+        <element label="Request Type" max_length="32" name="request_type" reference="x_1852437_person_0_request_types" type="reference"/>
+        <element label="New Request Type" max_length="40" name="new_request_type" type="string"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
         <index name="index">
+            <element name="request_type"/>
+        </index>
+        <index name="index2">
             <element name="sys_class_name"/>
         </index>
     </element>
