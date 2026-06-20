@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-20 12:36:24</sys_created_on>
+        <sys_id>7d2a829ac3610310c230fc0d05013146</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1852437_person_0_personal_requests.x_1852437_person_0.user</sys_name>
+        <sys_package display_value="Personal Requests" source="x_1852437_person_0">7fa9ce1ac3610310c230fc0d0501311e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Personal Requests">7fa9ce1ac3610310c230fc0d0501311e</sys_scope>
+        <sys_security_acl display_value="x_1852437_person_0_personal_requests">612a829ac3610310c230fc0d05013120</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_7d2a829ac3610310c230fc0d05013146</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-20 12:36:24</sys_updated_on>
+        <sys_user_role display_value="x_1852437_person_0.user" name="x_1852437_person_0.user">40b9ce1ac3610310c230fc0d0501314d</sys_user_role>
+    </sys_security_acl_role>
+</record_update>
